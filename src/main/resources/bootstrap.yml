@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    config:
+      uri: http://localhost:8081
+      username: nttdata
+      password: nttd4t4
+
+  #cloud:
+    #gateway:
+      #discovery:
+        #locator:
+          #enabled: true
+
+#eureka:
+  #client:
+    #service-url:
+      #defaultZone: http://localhost:8761/eureka/
